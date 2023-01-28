@@ -1,0 +1,746 @@
+if game.PlaceId==3431407618then
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/PascalHacks/Krypton/main/Games/3431407618'))()
+
+game.Players.LocalPlayer.PlayerGui.Krypton:Destroy()
+game.Players.LocalPlayer.PlayerGui.Game.Alert["-150"]:Destroy()
+
+locallibrary=loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
+localvenyx=library.new("Isle9Destroyer"11845689358)
+
+_G.WalkSpeed=16
+_G.Items={}
+_G.LastSavedPos=Vector3.new(000)
+
+--firstpage
+localpage=venyx:addPage("Main"11845689358)
+localMovement=page:addSection("Main")
+
+localitemDropdown=Movement:addDropdown("PickupItem"_G.Itemsfunction(text)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game:GetService("Workspace").Map.Ignore.Tools[text]:FindFirstChild("Handle").CFrame
+	keypress(0x45)
+	keyrelease(0x45)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game:GetService("Workspace").Map.Ignore.Tools[text]:FindFirstChild("Handle").CFrame
+	keypress(0x45)
+	keyrelease(0x45)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game:GetService("Workspace").Map.Ignore.Tools[text]:FindFirstChild("Handle").CFrame
+	keypress(0x45)
+	keyrelease(0x45)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game:GetService("Workspace").Map.Ignore.Tools[text]:FindFirstChild("Handle").CFrame
+	keypress(0x45)
+	keyrelease(0x45)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game:GetService("Workspace").Map.Ignore.Tools[text]:FindFirstChild("Handle").CFrame
+	keypress(0x45)
+	keyrelease(0x45)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game:GetService("Workspace").Map.Ignore.Tools[text]:FindFirstChild("Handle").CFrame
+	keypress(0x45)
+	keyrelease(0x45)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game:GetService("Workspace").Map.Ignore.Tools[text]:FindFirstChild("Handle").CFrame
+	keypress(0x45)
+	keyrelease(0x45)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game:GetService("Workspace").Map.Ignore.Tools[text]:FindFirstChild("Handle").CFrame
+	keypress(0x45)
+	keyrelease(0x45)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game:GetService("Workspace").Map.Ignore.Tools[text]:FindFirstChild("Handle").CFrame
+	keypress(0x45)
+	keyrelease(0x45)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game:GetService("Workspace").Map.Ignore.Tools[text]:FindFirstChild("Handle").CFrame
+	keypress(0x45)
+	keyrelease(0x45)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game:GetService("Workspace").Map.Ignore.Tools[text]:FindFirstChild("Handle").CFrame
+	keypress(0x45)
+	keyrelease(0x45)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game:GetService("Workspace").Map.Ignore.Tools[text]:FindFirstChild("Handle").CFrame
+	keypress(0x45)
+	keyrelease(0x45)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game:GetService("Workspace").Map.Ignore.Tools[text]:FindFirstChild("Handle").CFrame
+	keypress(0x45)
+	keyrelease(0x45)
+	wait(0.1)
+end)
+
+Movement:addButton("AutoButton"function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1584.56897-9.96502495986.6701050.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-679.842102162.698517-1031.368040.869998932-2.20079728e-050.493053645-2.20079728e-0518.34693856e-05-0.493053645-8.34693856e-050.869998932)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(766.900452-21.1751099-1118.08350.999967754-8.59748252e-05-0.008027886978.66678165e-0518.59748252e-050.00802787952-8.66678165e-050.999967754)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2252.00366-0.200775743-777.7844240.983381152-7.80938499e-05-0.1815530519.3831397e-0517.80938499e-050.181553051-9.3831397e-050.983381152)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-360.666626-39.44203571169.608520.349448264-4.92320032e-050.93695581-4.92320032e-0517.09062952e-05-0.93695581-7.09062952e-050.349448264)
+	wait(0.1)
+end)
+
+		Movement:addButton("CrateHack"function()
+			_G.Auto=true
+		localu11=require(game:GetService("ReplicatedStorage"):WaitForChild("PuzzleGenerator")).new({
+			A=tick()/2-game.PlaceId
+		});
+		st=false
+		nd=false
+		didit=false
+		localactive={
+			A=false
+			B=false
+			C=false
+			D=false
+			E=false
+			F=false
+		}
+		--forivinpairs(getconnections(game.Players.LocalPlayer.Character:WaitForChild("@H").OnClientEvent))do
+		--v:Disable()
+		--end
+		localTarget1=0
+		localTarget2=0
+		game.Players.LocalPlayer.Character:WaitForChild("@H").OnClientEvent:Connect(function(p23p24p25p222p26p27)
+			if_G.Autothen
+			didit=false
+			forivvvwinpairs(p25)do
+				ifivv==1then
+				Target1=vw
+				end
+				ifivv==2then
+					Target2=vw
+					end
+			end
+				forddvvinpairs(active)do
+			vv=false
+			end
+				for_vvvvinpairs(p24)do
+			active[vvvv]=true
+			end
+		whiletruedo
+					localu9={
+			A=0
+			B=0
+			C=0
+			D=0
+			E=0
+			F=0
+		};
+					ifnotdiditthen
+						st=false
+						nd=false
+										foroooovvvinpairs(u9)do
+						ifactive[oooo]then
+							u9[oooo]=math.random(110)-1
+						end
+						end
+				forv69v70inpairs(p23)do
+										foriiiiivvvvvinpairs(u9)do
+						ifactive[iiiii]then
+						end
+						end
+					ifv69==1then
+								ifu11.parseString(v70u9)==tonumber(Target1)then
+									st=true
+							ifnotp23[2]then
+								nd=true
+							end
+								end
+								end
+					ifv69==2then
+								ifu11.parseString(v70u9)==tonumber(Target2)then
+									nd=true
+								end
+					end
+				end
+				ifstandndthen
+					didit=true
+				end
+					end
+					ifdiditthen
+						workspace:WaitForChild("Services"):WaitForChild("SubmitSolution"):FireServer(p26u9p27)
+					break
+					end
+		end
+		end
+		end)
+		game.Players.LocalPlayer.CharacterAdded:Connect(function()
+			wait(2)
+			localu11=require(game:GetService("ReplicatedStorage"):WaitForChild("PuzzleGenerator")).new({
+			A=tick()/2-game.PlaceId
+		});
+		st=false
+		nd=false
+		didit=false
+		localactive={
+			A=false
+			B=false
+			C=false
+			D=false
+			E=false
+			F=false
+		}
+		--forivinpairs(getconnections(game.Players.LocalPlayer.Character:WaitForChild("@H").OnClientEvent))do
+		--v:Disable()
+		--end
+		localTarget1=0
+		localTarget2=0
+		game.Players.LocalPlayer.Character:WaitForChild("@H").OnClientEvent:Connect(function(p23p24p22221p25p26p27)
+			if_G.Autothen
+			didit=false
+			forivvvwinpairs(p25)do
+				ifivv==1then
+				Target1=vw
+				end
+				ifivv==2then
+					Target2=vw
+					end
+			end
+				forddvvinpairs(active)do
+			vv=false
+			end
+				for_vvvvinpairs(p24)do
+			active[vvvv]=true
+			end
+		whiletruedo
+					localu9={
+			A=0
+			B=0
+			C=0
+			D=0
+			E=0
+			F=0
+		};
+					ifnotdiditthen
+						st=false
+						nd=false
+										foroooovvvinpairs(u9)do
+						ifactive[oooo]then
+							u9[oooo]=math.random(110)-1
+						end
+						end
+				forv69v70inpairs(p23)do
+										foriiiiivvvvvinpairs(u9)do
+						ifactive[iiiii]then
+						end
+						end
+					ifv69==1then
+								ifu11.parseString(v70u9)==tonumber(Target1)then
+									st=true
+							ifnotp23[2]then
+								nd=true
+							end
+								end
+								end
+					ifv69==2then
+								ifu11.parseString(v70u9)==tonumber(Target2)then
+									nd=true
+								end
+					end
+				end
+				ifstandndthen
+					didit=true
+				end
+					end
+					ifdiditthen
+						workspace:WaitForChild("Services"):WaitForChild("SubmitSolution"):FireServer(p26u9p27)
+					break
+					end
+		end
+		end
+		end)
+		end)
+		end)
+
+Movement:addButton("InfiniteStorage"function()
+	game:GetService("UserInputService").InputBegan:Connect(function(key)
+		ifkey.KeyCode==Enum.KeyCode.Ethen
+			for_vinpairs(game.Players.LocalPlayer.Backpack:GetChildren())do
+				v.Parent=game.Players.LocalPlayer.Character
+			end
+wait(0.03)
+for_vinpairs(game.Players.LocalPlayer.Character:GetChildren())do
+				ifv:IsA("Tool")then
+v.Parent=game.Players.LocalPlayer.Backpack
+end
+			end
+		end
+	end)
+end)
+
+Movement:addButton("AntiOxygenDeath"function()
+	game:GetService("RunService").RenderStepped:Connect(function()
+		ifgame.Players.LocalPlayer.Character.Oxygen.Value<=0then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(291.28408820.238277431310.933600101-0-100)
+		end
+	end)
+end)
+
+Movement:addButton("CollectibleESP"function()
+			for_vinpairs(workspace.Map.Ignore.Collectibles:GetChildren())do
+				ifv:FindFirstChildWhichIsA("Part")orv:FindFirstChildWhichIsA("MeshPart")then
+					localname=Drawing.new("Text")
+						name.Color=Color3.new(255255255)
+						
+						name.Text=v.Name
+
+						game:GetService("RunService").RenderStepped:Connect(function()
+							localrootonscreen=workspace.CurrentCamera:WorldToViewportPoint((v:FindFirstChildWhichIsA("Part")orv:FindFirstChildWhichIsA("MeshPart")).Position)
+							ifonscreenthen
+								name.Position=Vector2.new(root.xroot.y)
+								name.Text=v.Name.."["..math.floor(((v:FindFirstChildWhichIsA("Part")orv:FindFirstChildWhichIsA("MeshPart")).Position-game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude).."]"
+								name.Visible=true
+							else
+								name.Visible=false
+							end
+						end)
+				end
+			end
+		end)
+
+Movement:addButton("TeleportTool"function()
+	mouse=game.Players.LocalPlayer:GetMouse()
+tool=Instance.new("Tool")
+tool.RequiresHandle=false
+tool.Name="TeleportTool"
+tool.Activated:connect(function()
+localpos=mouse.Hit+Vector3.new(02.50)
+pos=CFrame.new(pos.Xpos.Ypos.Z)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=pos
+end)
+tool.Parent=game.Players.LocalPlayer.Backpack
+end)
+
+Movement:addButton("Refresh(MakeyourhealthFull)"function()
+	forivinpairs(game.Players.LocalPlayer.Character:GetChildren())do
+		v:Destroy()
+	end
+end)
+
+for_vinpairs(game.Workspace.Map.Ignore.Tools:GetChildren())do
+iftable.find(_G.Itemsv.Name)then
+
+else
+table.insert(_G.Itemstostring(v.Name))
+end
+end
+
+Movement:addButton("MercenariesESP"function()
+for_vinpairs(workspace.AIHunter:GetChildren())do
+ifv:IsA("Model")then
+ifv:FindFirstChildWhichIsA("Tool")then
+				localhighlight=Instance.new("Highlight"v)
+				highlight.OutlineTransparency=0
+				highlight.OutlineColor=Color3.fromRGB(25500)
+				highlight.FillColor=Color3.fromRGB(25500)
+end
+end
+end
+
+workspace.AIHunter.ChildAdded:Connect(function(v)
+ifv:IsA("Model")then
+ifv:FindFirstChildWhichIsA("Tool")then
+				localhighlight=Instance.new("Highlight"v)
+				highlight.OutlineTransparency=0
+				highlight.OutlineColor=Color3.fromRGB(25500)
+				highlight.FillColor=Color3.fromRGB(25500)
+end
+end
+end)
+end)
+
+
+localsavedPos=Movement:addTextbox("SavedPosition000"function()
+
+end)
+
+Movement:addButton("SavePosition"function()
+_G.LastSavedPos=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+Movement:updateTextbox(savedPos"SavedPosition"tostring(_G.LastSavedPos))
+end)
+
+Movement:addButton("TeleportToSavedPosition"function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(291.28408820.238277431310.933600101-0-100)
+	wait(2)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=_G.LastSavedPos
+end)
+
+Movement:addSlider("Speed"1616128function(value)
+whilewait(0.03)do
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed=value
+end
+end)
+
+Movement:addSlider("ClimbAngle"500360function(value)
+	whiletask.wait(.01)do
+		game.Players.LocalPlayer.Character.Humanoid.MaxSlopeAngle=value
+	end
+end)
+
+localtimeC=Movement:addTextbox("Time0"function()
+
+end)
+
+--secondpage
+localtheme=venyx:addPage("Teleports"5012544693)
+localcolors=theme:addSection("Locations")
+		
+_G.Players={}
+		
+for_vinpairs(game.Players:GetChildren())do
+	table.insert(_G.Playersv.Name)
+end
+		
+colors:addDropdown("TeleportToPlayer"_G.Playersfunction(text)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(291.28408820.238277431310.933600101-0-100)
+	wait(2)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=workspace[text].HumanoidRootPart.CFrame
+end)
+		
+colors:addButton("Lair"function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(291.28408820.238277431310.933600101-0-100)
+	wait(2)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1799.64062-52.465374-607.492493-0.02626451482.28370478e-08-0.9996550084.2563788e-0912.2733099e-080.999655008-3.6578367e-09-0.0262645148)
+end)
+colors:addButton("Lab"function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(291.28408820.238277431310.933600101-0-100)
+	wait(2)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1784.05627-195.904465-1422.700070.9799377328.88492391e-090.199303776-3.04909342e-0811.0533816e-07-0.199303776-1.09301801e-070.979937732)
+end)
+	colors:addButton("Hangar"function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(291.28408820.238277431310.933600101-0-100)
+	wait(2)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1622.6351321.0474262-2333.18896-0.918709049.56422141e-08-0.3949350428.09768466e-0815.38013936e-080.3949350421.74472348e-08-0.91870904)
+end)
+colors:addButton("ApeCity"function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(291.28408820.238277431310.933600101-0-100)
+	wait(2)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1253.43188-53.8751831-1009.703-0.8898945458.09112866e-09-0.4561662977.5369444e-0913.0340741e-090.456166297-7.38094086e-10-0.889894545)
+end)
+colors:addButton("Dome"function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(291.28408820.238277431310.933600101-0-100)
+	wait(2)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-831.062073299.745605-1368.472290.8746027358.04499312e-090.484840274-1.35881839e-0817.91862753e-09-0.484840274-1.35137528e-080.874602735)
+end)
+colors:addButton("RealmMirror"function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(291.28408820.238277431310.933600101-0-100)
+	wait(2)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.Workspace.Map.Ignore.SpecialPickup.RealmMirror.CFrame
+end)
+colors:addButton("PeanutBox"function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(291.28408820.238277431310.933600101-0-100)
+	wait(2)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.Workspace.Map.Main.PeanutBox.Screen.CFrame
+end)
+	colors:addButton("SpawnShip"function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(291.28408820.238277431310.933600101-0-100)
+end)
+colors:addButton("Docks"function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(291.28408820.238277431310.933600101-0-100)
+	wait(2)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-2037.962653.00008678-1565.378780.454565942-4.16716865e-080.8907130963.72862416e-0812.77559984e-08-0.8907130962.05944133e-080.454565942)
+end)
+colors:addButton("Generator"function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(291.28408820.238277431310.933600101-0-100)
+	wait(2)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(512.474121-6.85000229-518.4180910.608929217-4.87353224e-090.7932245732.4331217e-0914.27613278e-09-0.793224573-6.73850253e-100.608929217)
+end)
+colors:addButton("MantisCrash"function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(291.28408820.238277431310.933600101-0-100)
+	wait(2)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(119.043137-0.612449646-493.201172100010001)
+end)
+--load
+venyx:SelectPage(venyx.pages[1]true)
+wait()
+
+--thirdpage
+localpage=venyx:addPage("Others"11845689358)
+localothers=page:addSection("Destroy")
+others:addButton("Trees"function()
+_G.autoTrees=true;
+
+	while_G.autoTrees==truedo
+		for_vinpairs(game.Workspace.Map.Ignore.NoCollideTrees:GetChildren())do
+			v:Destroy()
+		end
+		for_vinpairs(game.Workspace.Map.Ignore.CollideTrees:GetChildren())do
+			v:Destroy()
+		end
+		wait(5)
+	end
+end)
+others:addButton("UnderwaterBlur"function()
+_G.autounderwaterblur=true;
+
+	while_G.autounderwaterblur==truedo
+		game.Lighting.Blur:Destroy()
+		wait(10)
+	end
+end)
+others:addButton("BushTraps"function()
+_G.autobushtraps=true;
+
+	while_G.autobushtraps==truedo
+		for_vinpairs(game.Workspace.Map.Ignore.VegetationThick:GetChildren())do
+			v:Destroy()
+		end
+		wait(5)
+	end
+end)
+
+others:addButton("Fog"function()
+	whilewait()do
+game.Lighting.FogEnd=99999999
+end
+end)
+
+localothers=page:addSection("Admin")
+others:addButton("InfiniteYield"function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+localothers=page:addSection("Bypass")
+others:addButton("ToggleBypassAntiTP"function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.Parent=game.Workspace
+end)
+
+others:addButton("UntoggleBypassAntiTP"function()
+game.Players.LocalPlayer.Character:Destroy()
+end)
+
+localothers=page:addSection("BypassMethod2")
+others:addButton("ToggleBypassMethod2"function()
+game.Players.LocalPlayer.Character.LowerTorso:Destroy()
+end)
+
+others:addButton("UntoggleBypassMethod2"function()
+game.Players.LocalPlayer.Character:Destroy()
+end)
+
+workspace.Map.Ignore.Tools.ChildAdded:Connect(function(child)
+table.insert(_G.Itemschild.Name)
+
+Movement:updateDropdown(itemDropdown"TeleportToItem"_G.Itemsfunction(shit)
+
+end)
+end)
+
+workspace.Map.Ignore.Tools.ChildRemoved:Connect(function(child)
+for_vinpairs(_G.Items)do
+iftostring(v)==child.Namethen
+table.remove(_G.Itemschild)
+end
+end
+
+Movement:updateDropdown(itemDropdown"TeleportToItem"_G.Itemsfunction(shit)
+
+end)
+end)
+
+whilewait(.5)do
+Movement:updateTextbox(timeC"Time"tostring(game.Workspace.GameState.Clock.Value))
+end
+else
+print("jointruegameidiot")
+end
